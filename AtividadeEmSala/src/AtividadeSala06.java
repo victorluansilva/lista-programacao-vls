@@ -9,14 +9,18 @@ public class AtividadeSala06 {
         teste = (a > b) || (a < b);// true
         System.out.println("(a > b) || (a < b): " + teste);
         teste = (x > a) && (y > a);// true
-        System.out.println("(x > a) && (y > a)" + teste);
+        System.out.println("(x > a) && (y > a): " + teste);
         teste = !verdadeiro;
-        System.out.println("Negação de um valor verdadeiro"
+        System.out.println("Negação de um valor verdadeiro: "
                 +teste);
         //Imprima os resultados abaixo:
         teste = verdadeiro || falso;
+        System.out.println("verdadeiro || falso = " + teste);
         teste = !(falso || falso) && verdadeiro;
+        System.out.println("!(falso || falso) && verdadeiro = " + teste);
         teste = verdadeiro || falso && verdadeiro;
+        System.out.println("verdadeiro || falso && verdadeiro = " + teste);
         teste = verdadeiro && !(falso && falso);
+        System.out.println("verdadeiro && !(falso && falso)" + teste);
     }
 }
