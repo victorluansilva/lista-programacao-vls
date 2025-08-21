@@ -1,17 +1,18 @@
 public class AtividadeSala02 {
-/*
-* Crie uma variável String nomeada como "nome";
-* Crie uma variável String nomeada como "sobrenome";
-* Crie uma variável idade do tipo inteiro;
-* Crie uma variável com nome 'peso' do tipo real;
-* Crie uma variável altura do tipo real;
-* Faça:
-*   Um script que imprima o nome e sobrenome da pessoa;
-*   Imprima o ano de nascimento da pessoa;
-*   Imprima o peso e a altura na mesma linha;
-*   Imprima o IMC da pessoa;
-* */
+    // Tipos de dados
     public static void main(String[] args){
+        /*
+         * Crie uma variável String nomeada como "nome";
+         * Crie uma variável String nomeada como "sobrenome";
+         * Crie uma variável idade do tipo inteiro;
+         * Crie uma variável com nome 'peso' do tipo real;
+         * Crie uma variável altura do tipo real;
+         * Faça:
+         *   Um script que imprima o nome e sobrenome da pessoa;
+         *   Imprima o ano de nascimento da pessoa;
+         *   Imprima o peso e a altura na mesma linha;
+         *   Imprima o IMC da pessoa;
+         * */
         String nome = "Victor";
         String sobrenome = "Silva";
         int idade = 29;

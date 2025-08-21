@@ -60,5 +60,9 @@ public class Resumo {
     }
 }
 
-
 ```
+
+## Atalhos autocomplete no IntelliJ
+
+- `psvm`
+- `sout`

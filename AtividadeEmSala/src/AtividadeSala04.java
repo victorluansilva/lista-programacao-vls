@@ -1,5 +1,5 @@
 public class AtividadeSala04 {
-
+    // Operadores de atribuição
     public static void main(String[] args){
         //Imprima o resultado do valor final da variável x
         int x = 0;

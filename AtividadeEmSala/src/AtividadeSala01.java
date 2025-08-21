@@ -4,6 +4,7 @@ public class AtividadeSala01 {
     //Imprima o resultado das variáveis.
 
     public static void main(String[] args){
+        //Variáveis
         String nome = "";
         nome = "Victor";
         int idade = 29;

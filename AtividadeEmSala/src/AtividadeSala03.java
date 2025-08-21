@@ -1,5 +1,5 @@
 public class AtividadeSala03 {
-
+    // Operadores aritméticos e relacionais
     public static void main(String[] args){
         //Tendo as variáveis abaixo:
         int a = 15;
