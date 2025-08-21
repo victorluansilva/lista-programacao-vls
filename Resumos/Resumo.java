@@ -46,12 +46,41 @@ public class Resumo {
         System.out.println(result);
         result = (a <= b);
         System.out.println(result);
-        //OPERADORES LÓGICOS
+        //LÓGICOS
         boolean varA = false; boolean varB = false;
         result = (varA && varB);// OPERADOR E(AND)
         result = (varA || varB);// OPERADOR OU(OR)
         result = (!varA);//OPERADOR NÃO(NOT)
 
+        // ESTRUTURAS CONDICIONAIS
+
+        // Estrutura SE (If/Else)
+        boolean condicao = true, segundacodicao = true;
+
+        if(condicao){
+            //se a condição for verdadeira o código é executado
+        } else if (segundacodicao){
+            //senão este código será atualizado
+        } else {
+            //código a ser executado se as condições anteriores forem falsas
+        }
+
+
+        // Estrutura Escolha (Switch/Case)
+
+        char opcao = 'S'
+
+        switch (opcao){
+            case 's':
+                //código que vai rodar
+                break;
+            case 'n':
+                //código que vai rodar
+                break;
+            default:
+                //código que vai rodar
+                break;
+        }
 
 
 
