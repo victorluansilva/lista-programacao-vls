@@ -29,6 +29,8 @@ public class AtividadeSala07 {
         // LEITURA DE DADOS
         /*
         Bliblioteca Java.util.Scanner será utilizada para realizar a leitura de dados
+        1- Faça um script que receba a idade de um usuário e que retorne se ele é maior de idade ou não.
+        2- Faça um script que receba a inicial do sexo do usuário e que retorne o sexo completo utilizando a estrutra "switch".
          */
     }
 }
