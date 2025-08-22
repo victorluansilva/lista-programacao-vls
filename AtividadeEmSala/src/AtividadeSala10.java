@@ -1,13 +1,14 @@
+import java.util.Scanner;
 public class AtividadeSala10 {
     public static void main(String[] args) {
         // Estrutura WHILE
 
         int x = 5, contador = 0;
 
-        while(contador <= 10){
-            System.out.println(x + "*" + contador + " = " + (x * contador));
-            contador++;
-        }
+//        while(contador <= 10){
+//            System.out.println(x + "*" + contador + " = " + (x * contador));
+//            contador++;
+//        }
 
         // Componha um script que receba um valor inteiro do usuário e que retorne a
         // a tabuáda de multiplicação, de 0 a 10, equivalente.
@@ -17,5 +18,18 @@ public class AtividadeSala10 {
 
             X * 0 = ?
          */
+        Scanner leia = new Scanner(System.in);
+
+        System.out.println("Digite um número inteiro de 0 a 10");
+        int numero = leia.nextInt();
+        contador = 0;
+
+        System.out.println("A tabuáda de " + numero + " é:");
+        while(contador <= 10){
+            System.out.println(numero + "*" + contador + " = " + (numero * contador));
+            contador++;
+        }
+
+
     }
 }
