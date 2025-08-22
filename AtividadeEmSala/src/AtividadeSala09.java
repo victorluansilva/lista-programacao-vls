@@ -15,7 +15,6 @@ public class AtividadeSala09 {
         // Exemplo de menu:
 
         boolean sair = false;
-
         do{
             System.out.println("Escolha uma das opções abaixo");
             System.out.println(
@@ -33,7 +32,7 @@ public class AtividadeSala09 {
                     System.out.println("Cadastrar novo usuário");
                     break;
             }
-        }while(sair);
+        }while(!sair);
 
     }
 }
