@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class AtividadeEmSala08 {
+public class AtividadeSala08 {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         String nome = ""; // variável nome tipo "texto"

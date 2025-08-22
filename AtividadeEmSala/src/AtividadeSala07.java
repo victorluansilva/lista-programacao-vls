@@ -4,6 +4,7 @@ public class AtividadeSala07 {
 
     public static void main(String[] args) {
         //Exemplo com o SE(IF)
+        /*
         int a = 5, b = -5, x = 30, y = 9;
         if (a < 0 && b < 0 && x < 0 && y < 0){
             System.out.println("Todos os valores são negativos.");
@@ -13,6 +14,7 @@ public class AtividadeSala07 {
             System.out.println("Todos os valores são positivos");
         }
         //Exemplo com o Escolha (Switch/Case)
+
         char opcao = 'S';
         switch (opcao){
             case 'S':
@@ -25,6 +27,7 @@ public class AtividadeSala07 {
                 System.out.println("A opção escolhida é inválida");
                 break;
         }
+        */
 
         // LEITURA DE DADOS
         /*
@@ -32,5 +35,27 @@ public class AtividadeSala07 {
         1- Faça um script que receba a idade de um usuário e que retorne se ele é maior de idade ou não.
         2- Faça um script que receba a inicial do sexo do usuário e que retorne o sexo completo utilizando a estrutra "switch".
          */
+
+        Scanner leia = new Scanner(System.in);
+        //Resposta 1
+        System.out.println("Digite sua idade:");
+        int idade = leia.nextInt();
+        if(idade >= 18) System.out.println("Você é de maior!");
+        //Resposta 2
+        System.out.println("Digite o sexo: (m, f)");
+        char op = leia.next().toLowerCase().charAt(0);
+        System.out.println("Vocé é do sexo: ");
+        switch (op){
+            case 'm':
+                System.out.println("Masculino");
+                break;
+            case 'f':
+                System.out.println("Feminino");
+                break;
+            default:
+                System.out.println("Não existente!");
+                break;
+        }
+
     }
 }
