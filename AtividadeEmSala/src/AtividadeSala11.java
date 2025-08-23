@@ -3,10 +3,10 @@ public class AtividadeSala11 {
     //Estrutura PARA (FOR)
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
-        double nota1, nota2, nota3, media = 0;
+        double nota1 = 0, nota2 = 0, nota3 = 0, media = 0;
 
         for(int i = 0; i < 3; i++){
-            System.out.println("Digite o valor da " +i+ "ª nota:");
+            System.out.println("Digite o valor da " +(i+1)+ "ª nota:");
             switch (i){
                 case 0:
                     nota1 = leia.nextDouble();
@@ -21,6 +21,7 @@ public class AtividadeSala11 {
                     break;
             }
         }
-        System.out.println("A média das notas digitadas é:");
+        media = (nota1 + nota2 + nota3)/3;
+        System.out.println("A média das notas digitadas é:" + media );
     }
 }
