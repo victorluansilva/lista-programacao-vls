@@ -9,7 +9,7 @@ public class AtividadeSala13 {
                 {0,0,0},
                 {0,0,0}
         };
-        
+
         String[] materias = {"Matemática","Português","Física"};
 
 
