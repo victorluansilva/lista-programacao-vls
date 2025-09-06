@@ -11,6 +11,5 @@ public class Atividade52 {
         System.out.println("Digite os graus celcius para conversão:");
         System.out.println("Conversão: "+celciusToFahrenheit(leia.nextDouble())+"ºF");
 
-
     }
 }
