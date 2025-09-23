@@ -22,15 +22,21 @@ public class Lampada {
     }
 
     public void aumentarBrilho(int valor) {
-        if (((this.brilho + valor) >= 0 && ((this.brilho + valor) <= 100))){
-                this.brilho += valor;
+        if (valor > 100){
+            this.brilho = 100;
+        } else if(valor >= 0) {
+            int resultado = this.brilho + valor;
+            if (resultado >= 0 && resultado <= 100) {
+                this.brilho = resultado;
+            }
         }
         System.out.println("O brilho da lâmpada está em: " + this.brilho);
 
     }
     public void reduzirBrilho(int valor) {
-        if (((this.brilho - valor) >= 0 && ((this.brilho - valor) <= 100))){
-            this.brilho -= valor;
+        int resultado = this.brilho - valor;
+        if (resultado >= 0 && resultado <= 100){
+            this.brilho = resultado;
         }
         System.out.println("O brilho da lâmpada está em: " + this.brilho);
 
